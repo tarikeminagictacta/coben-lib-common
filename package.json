@@ -8,6 +8,7 @@
     "build:ver": "cd projects/coben-lib-common && npm run build:ver && cd ../..",
     "build:lib": "ng build coben-lib-common",
     "build:publish": "npm publish dist/coben-lib-common/",
+    "build:lib-watch": "ng build coben-lib-common --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
