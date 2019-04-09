@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@coben-lib/common": [
+        "projects/coben-lib-common/src"
+      ],
+      "@coben-lib/common/*": [
+        "projects/coben-lib-common/src/*"
+      ]
+    }
   }
 }
